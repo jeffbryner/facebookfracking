@@ -1,0 +1,30 @@
+<svg id="environment" xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+<defs>
+    <style>
+      .cls-1 {
+        fill: #d8e8f2;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #94cce1;
+      }
+
+      .cls-3 {
+        fill: #fbf1b6;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" d="M10,0H118a10,10,0,0,1,10,10V118c0-54.249-140,0-140,0V10A10,10,0,0,1,10,0Z"/>
+  <path id="Rounded_Rectangle_1_copy" data-name="Rounded Rectangle 1 copy" class="cls-2" d="M128,46v72c0-54.249-140,0-140,0V46H128Z"/>
+  <path id="Rounded_Rectangle_1_copy_2" data-name="Rounded Rectangle 1 copy 2" class="cls-3" d="M128,74v44a10,10,0,0,1-10,10H10A10,10,0,0,1,0,118V74C25.938,80.423,99.811,67.135,140,74Z"/>
+  <path class="cls-4" d="M12,22c-2.083-5.333,12.833-3.917,17-1-0.083-5.917,6.25-18.417,11-10-0.833-.083-6.083-8.25-9,14C16.5,18.833,14.333,19.25,12,22Z"/>
+  <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-4" d="M41.525,18.149c1.212-4.264,9.8,3.675,11.013,7.441,2.726-3.675,12.522-8.354,11.517-.932-0.478-.446.1-7.952-12.154,4.337C45.8,18.336,44.263,17.565,41.525,18.149Z"/>
+</svg>
