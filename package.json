@@ -1,0 +1,12 @@
+{
+  "name": "facebookfracking",
+  "description": "",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless-api-cloudfront": "^0.9.4",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-python-requirements": "^4.2.5",
+    "serverless-wsgi": "^1.6.1"
+  }
+}
