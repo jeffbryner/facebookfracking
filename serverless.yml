@@ -5,6 +5,8 @@ custom:
   pythonRequirements:
     usePipenv: true
     dockerizePip: true
+    useDownloadCache: true
+    useStaticCache: true
   wsgi:
     app: app.app
     packRequirements: false
@@ -26,7 +28,7 @@ custom:
 
 provider:
   name: aws
-  runtime: python3.6
+  runtime: python3.7
   stage: ${opt:stage,'dev'}
   region: us-west-2
   environment:
