@@ -48,7 +48,7 @@ else:
     app.config.from_object(config.DevelopmentConfig())
 
 #headers:
-headers= {'Content-Security-Policy': ("default-src 'self'; frame-src https://www.youtube.com; form-action 'self'; connect-src 'self'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' ; style-src 'self' https://fonts.googleapis.com/;")}
+headers= {'Content-Security-Policy': ("default-src 'self'; frame-src https://www.youtube.com https://platform.twitter.com/; form-action 'self'; connect-src 'self'; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://syndication.twitter.com/ https://pbs.twimg.com/ https://platform.twitter.com/ data:; script-src 'self' https://platform.twitter.com/ https://syndication.twitter.com https://cdn.syndication.twimg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://platform.twitter.com https://*.twimg.com;")}
 
 
 def isBase64(sb):
@@ -103,7 +103,7 @@ def s3_index():
         abort(404)
 
 @app.route("/<path:filename>")
-@add_response_headers(headers=headers)
+#@add_response_headers(headers=headers)
 def s3_file(filename):
     exists, mimetype=s3_file_exists(filename)
     if exists:
