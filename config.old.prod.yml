@@ -1,0 +1,7 @@
+DOMAIN_NAME: facebookfracking.watch
+SERVER_NAME: 7nv0d9my30.execute-api.us-west-2.amazonaws.com
+ZONE_ID: Z24AS5HVUUQ2K4
+CERTIFICATE_ARN: arn:aws:acm:us-east-1:717455710680:certificate/cd7a737f-53f2-450d-b024-91bed38aeb7b
+ENVIRONMENT: prod
+REGION: us-west-2
+BUCKET_NAME: facebookfracking-watch-prod
